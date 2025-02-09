@@ -55,7 +55,7 @@ export default function Projects() {
   ];
 
   return (
-    <div>
+    <div className="mb-10">
       {projects
         .slice()
         .reverse()
@@ -65,7 +65,7 @@ export default function Projects() {
             className="flex flex-col lg:flex-row mx-auto shadow-xl bg-white rounded-md py-3 px-4 my-5 "
           >
             {/* Left Side */}
-            <div className="flex-1 flex justify-center border-2">
+            <div className="flex justify-center border-2">
               <div className="wrapperScroll">
                 <img
                   className="imgScroll"
@@ -74,7 +74,6 @@ export default function Projects() {
                 />
               </div>
             </div>
-
             {/* Right Side */}
             <div className="flex-1 flex max-w-xl flex-col justify-center ">
               <div className="text-xl font-semibold mt-5 px-2">
@@ -84,7 +83,6 @@ export default function Projects() {
               <p className="xl:mx-28 mt-3 px-2 text-gray-500">
                 {project.description}
               </p>
-
               {/* Tech Stack */}
               <div className="flex justify-center gap-5 py-6 flex-wrap">
                 {project.techStack.map((tech, index) => (
@@ -96,7 +94,6 @@ export default function Projects() {
                   </p>
                 ))}
               </div>
-
               {/* Project Links */}
               <div className="flex justify-center gap-5 pb-3">
                 {project.code && (
