@@ -55,7 +55,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="mb-10">
+    <div className="mb-16">
       {projects
         .slice()
         .reverse()
