@@ -3,6 +3,7 @@ import MultiStepForm from "../assets/multi-step-form.png";
 import ProductPreview from "../assets/product-preview-card-component.png";
 import ProductListWithCart from "../assets/product-list-with-cart.png";
 import SocialLinksProfile from "../assets/social-links-profile.png";
+import ContactForm from "../assets/contact-form.png";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -51,6 +52,17 @@ export default function Projects() {
       description:
         "This project is a clean and minimal social links profile page inspired by a Frontend Mentor challenge. The goal was to practice styling with SASS, focusing on modular CSS, responsiveness, and elegant typography. It serves as a simple yet effective way to display multiple social media links in a visually appealing and user-friendly layout.",
       techStack: ["HTML", "CSS", "SASS"],
+    },
+    {
+      id: 4,
+      name: "Contact Form",
+      date: "February 2025",
+      image: ContactForm,
+      code: "https://github.com/itsmecedy/contact-form",
+      link: "https://contact-form-itsmecedy.netlify.app/",
+      description:
+        "This project is a simple and minimal static contact form, designed to practice layout and form styling. The goal was to focus on building a clean, user-friendly form with a modern design, using HTML, CSS, and ReactJS. It provides a basic interface for users to submit their contact information in an intuitive and visually appealing way.",
+      techStack: ["HTML", "CSS", "TailwindCSS", "ReactJS"],
     },
   ];
 
